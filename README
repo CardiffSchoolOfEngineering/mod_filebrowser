@@ -1,0 +1,15 @@
+=Required Features=
+
+Module enables specification of a directory on the J-website which file content it lists 
+with the appropriate icons
+
+Provides recognition mechanism and icons for:
+
+ - doc / docx - same icon
+ - ppt / pps / pptx - same icon
+ - xls / xlsx - same icon
+ - pdf - same icon
+ - avi / mkv / mov / mpg /mpeg / mp4 / flc / swf / wmv - same icon
+ - bmp / png / jpg - same icon
+ 
+hosted and publically available at Github to enable future updates
