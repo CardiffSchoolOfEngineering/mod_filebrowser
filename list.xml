@@ -1,0 +1,3 @@
+<extensionset name="mod_filebrowser" description="File Browser Module">
+   <extension name="mod_filebrowser" element="mod_filebrowser" type="file" version="2.1.0" detailsurl="https://github.com/enginit/mod_filebrowser/master/extension.xml" />
+</extensionset>
