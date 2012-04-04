@@ -11,7 +11,7 @@
 		<element>mod_filebrowser</element>
 		<type>module</type>
 		<folder>modules</folder>
-		<client_id>0</client_id>
-		<client>0</client>
+		<client_id><![CDATA[0]]></client_id>
+		<client><![CDATA[0]]></client>
 	</update>
 </updates>
