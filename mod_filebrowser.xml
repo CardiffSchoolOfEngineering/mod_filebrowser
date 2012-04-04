@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="2.5.0" method="update">
+  <name>File Browser</name>
+  <author>Phil Taylor / Blue Flame IT Ltd</author>
+  <creationDate>2012</creationDate>
+  <copyright>Copyright (C) 2012 Blue Flame IT Ltd / Phil Taylor. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+  <authorEmail>phil@phil-taylor.com</authorEmail>
+  <authorUrl>www.phil-taylor.com</authorUrl>
+  <version>2.0</version>
+  <description>This module shows the contents of a folder within the images folder (managable using the media manager) with link to download the files.</description>
+  <files>
+    <filename>images/16x16/audio.png</filename>
+    <filename>images/16x16/bmp.png</filename>
+    <filename>images/16x16/bz2.png</filename>
+    <filename>images/16x16/font.png</filename>
+    <filename>images/16x16/gif.png</filename>
+    <filename>images/16x16/gz.png</filename>
+    <filename>images/16x16/html.png</filename>
+    <filename>images/16x16/info.png</filename>
+    <filename>images/16x16/iso.png</filename>
+    <filename>images/16x16/jpeg.png</filename>
+    <filename>images/16x16/jpg.png</filename>
+    <filename>images/16x16/ms_word.png</filename>
+    <filename>images/16x16/pdf.png</filename>
+    <filename>images/16x16/php.png</filename>
+    <filename>images/16x16/png.png</filename>
+    <filename>images/16x16/ps.png</filename>
+    <filename>images/16x16/psd.png</filename>
+    <filename>images/16x16/rar.png</filename>
+    <filename>images/16x16/spreadsheet.png</filename>
+    <filename>images/16x16/tar.png</filename>
+    <filename>images/16x16/tga.png</filename>
+    <filename>images/16x16/tgz.png</filename>
+    <filename>images/16x16/tiff.png</filename>
+    <filename>images/16x16/txt.png</filename>
+    <filename>images/16x16/unknown.png</filename>
+    <filename>images/16x16/vcalendar.png</filename>
+    <filename>images/16x16/video.png</filename>
+    <filename>images/16x16/zip.png</filename>
+    <filename>images/22x22/audio.png</filename>
+    <filename>images/22x22/bmp.png</filename>
+    <filename>images/22x22/bz2.png</filename>
+    <filename>images/22x22/font.png</filename>
+    <filename>images/22x22/gif.png</filename>
+    <filename>images/22x22/gz.png</filename>
+    <filename>images/22x22/html.png</filename>
+    <filename>images/22x22/info.png</filename>
+    <filename>images/22x22/iso.png</filename>
+    <filename>images/22x22/jpeg.png</filename>
+    <filename>images/22x22/jpg.png</filename>
+    <filename>images/22x22/ms_word.png</filename>
+    <filename>images/22x22/pdf.png</filename>
+    <filename>images/22x22/php.png</filename>
+    <filename>images/22x22/png.png</filename>
+    <filename>images/22x22/ps.png</filename>
+    <filename>images/22x22/psd.png</filename>
+    <filename>images/22x22/rar.png</filename>
+    <filename>images/22x22/spreadsheet.png</filename>
+    <filename>images/22x22/tar.png</filename>
+    <filename>images/22x22/tga.png</filename>
+    <filename>images/22x22/tgz.png</filename>
+    <filename>images/22x22/tiff.png</filename>
+    <filename>images/22x22/txt.png</filename>
+    <filename>images/22x22/unknown.png</filename>
+    <filename>images/22x22/vcalendar.png</filename>
+    <filename>images/22x22/vcard.png</filename>
+    <filename>images/22x22/video.png</filename>
+    <filename>images/22x22/zip.png</filename>
+    <filename>images/32x32/audio.png</filename>
+    <filename>images/32x32/bmp.png</filename>
+    <filename>images/32x32/bz2.png</filename>
+    <filename>images/32x32/font.png</filename>
+    <filename>images/32x32/gif.png</filename>
+    <filename>images/32x32/gz.png</filename>
+    <filename>images/32x32/html.png</filename>
+    <filename>images/32x32/info.png</filename>
+    <filename>images/32x32/iso.png</filename>
+    <filename>images/32x32/jpeg.png</filename>
+    <filename>images/32x32/jpg.png</filename>
+    <filename>images/32x32/ms_word.png</filename>
+    <filename>images/32x32/pdf.png</filename>
+    <filename>images/32x32/php.png</filename>
+    <filename>images/32x32/png.png</filename>
+    <filename>images/32x32/ps.png</filename>
+    <filename>images/32x32/psd.png</filename>
+    <filename>images/32x32/rar.png</filename>
+    <filename>images/32x32/spreadsheet.png</filename>
+    <filename>images/32x32/tar.png</filename>
+    <filename>images/32x32/tga.png</filename>
+    <filename>images/32x32/tgz.png</filename>
+    <filename>images/32x32/tiff.png</filename>
+    <filename>images/32x32/txt.png</filename>
+    <filename>images/32x32/unknown.png</filename>
+    <filename>images/32x32/vcalendar.png</filename>
+    <filename>images/32x32/video.png</filename>
+    <filename>images/32x32/zip.png</filename>
+    <filename>tmpl/default.php</filename>
+    <filename>tmpl/index.html</filename>
+    <filename>helper.php</filename>
+    <filename>index.html</filename>
+    <filename module="mod_filebrowser">mod_filebrowser.php</filename>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+        <field name="path" type="text" default="images/stories" label="Path to folder" description="Specify the folder where the files to be displayed are stored, must start at the webroot but doesnt need a starting or an ending /" />
+        <field name="show_file_size" type="list" default="1" label="Show/Hide File Size" description="Select whether to show the file size next to each item">
+          <option value="1">Show</option>
+          <option value="0">Hide</option>
+        </field>
+        <field name="show_icons" type="list" default="1" label="Show/Hide icons" description="Select whether to show the file type icons next to each item">
+          <option value="1">Show</option>
+          <option value="0">Hide</option>
+        </field>
+        <field name="icon_size" type="list" default="16x16" label="Icon size" description="Select icons size in pixels">
+          <option value="16x16">16x16</option>
+          <option value="22x22">22x22</option>
+          <option value="32x32">32x32</option>
+        </field>
+        <field name="icon_word" type="text" default="ms_word.png" label="Icon for doc/docx" description="file name of image only - files should be in /modules/mod_filebrowser/images/" />
+        <field name="icon_ppt" type="text" default="unknown.png" label="Icon for ppt/pps/pptx" description="file name of image only - files should be in /modules/mod_filebrowser/images/" />
+        <field name="icon_xls" type="text" default="spreadsheet.png" label="Icon for xls/xlsx" description="file name of image only - files should be in /modules/mod_filebrowser/images/" />
+        <field name="icon_pdf" type="text" default="pdf.png" label="Icon for pdf" description="file name of image only - files should be in /modules/mod_filebrowser/images/" />
+        <field name="icon_media" type="text" default="unknown.png" label="Icon for movies" description="Applied to 'avi/mkv/mov/mpg/mpeg/mp4/flc/swf/wmv' - file name of image only - files should be in /modules/mod_filebrowser/images/" />
+        <field name="icon_image" type="text" default="jpeg.png" label="Icon for bmp/png/jpg" description="file name of image only - files should be in /modules/mod_filebrowser/images/" />
+        <field name="icon_unknown" type="text" default="unknown.png" label="Icon for doc/docx" description="file name of image only - files should be in /modules/mod_filebrowser/images/" />
+      </fieldset>
+    </fields>
+  </config>
+</install>
