@@ -10,8 +10,11 @@
 		<targetplatform name="joomla" version="2.5"/>
 		<element>mod_filebrowser</element>
 		<type>module</type>
-		<folder>modules</folder>
-		<client_id><![CDATA[0]]></client_id>
-		<client><![CDATA[0]]></client>
+
+		<!-- DO NOT SPECIFY A FOLDER! #JoomlaBug! -->
+		<folder></folder>
+
+		<!-- This is converted as NULL in Joomla, another bug, but works. 0 !== NULL really!!! -->
+		<client>0</client>
 	</update>
 </updates>
