@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<install type="module" version="2.5.0" method="update">
+<install type="module" version="2.5.0" method="upgrade">
   <name>File Browser</name>
   <author>Phil Taylor / Blue Flame IT Ltd</author>
   <creationDate>2012</creationDate>
@@ -100,7 +100,12 @@
     <filename>helper.php</filename>
     <filename>index.html</filename>
     <filename module="mod_filebrowser">mod_filebrowser.php</filename>
+    <filename>extension.xml</filename>
+    <filename>list.xml</filename>
   </files>
+  <updateservers>
+		<server type="extension" priority="1" name="mod_filebrowser Updates"><![CDATA[https://raw.github.com/enginit/mod_filebrowser/master/extension.xml]]></server>
+  </updateservers>
   <config>
     <fields name="params">
       <fieldset name="basic">
