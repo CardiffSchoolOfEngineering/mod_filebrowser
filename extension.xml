@@ -11,5 +11,6 @@
 		<element>mod_filebrowser</element>
 		<type>module</type>
 		<folder>modules</folder>
+		<client_id>0</client_id>
 	</update>
 </updates>
