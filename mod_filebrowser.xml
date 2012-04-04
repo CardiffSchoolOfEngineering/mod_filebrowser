@@ -101,7 +101,6 @@
     <filename>index.html</filename>
     <filename module="mod_filebrowser">mod_filebrowser.php</filename>
     <filename>extension.xml</filename>
-    <filename>list.xml</filename>
   </files>
   <updateservers>
 		<server type="extension" priority="1" name="mod_filebrowser Updates"><![CDATA[https://raw.github.com/enginit/mod_filebrowser/master/extension.xml]]></server>
